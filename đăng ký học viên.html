@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+    <style>
+        table{
+            width: 450px; height: 300px;
+
+        }
+        table, th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table style="background: yellow">
+        <tr style="background: aquamarine"><th style="color: blue" colspan="3">ĐĂNG KÝ HỌC VIÊN</th></tr>
+        <tr>
+            <td>Họ và tên: </td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date"name="date"></td>
+        </tr>
+        <tr>
+            <td>Giới tính: </td>
+            <td><input type="radio" name="gender"> Nam <input type="radio" name="gender"> Nữ</td>
+        </tr>
+        <tr>
+            <td>Địa chỉ: </td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Lớp: </td>
+            <td><select>
+                <option>-Chọn lớp-</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><td>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </td></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
